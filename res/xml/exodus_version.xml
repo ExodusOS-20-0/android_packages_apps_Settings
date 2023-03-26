@@ -18,6 +18,12 @@
     android:title="@string/exodus_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Exodus logo -->
+    <PreferenceScreen
+        android:layout="@layout/exodus_logo"
+        android:key="exodus_logo"
+        android:selectable="false" />
+
     <PreferenceCategory
         android:key="exodus_category"
         android:title="@string/exodus_title" />	
